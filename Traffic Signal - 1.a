@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main(void) {
+  char color;
+  printf("r for red\n");
+  printf("y for yellow\n");
+  printf("g for green\n");
+  printf("Enter the Color : ");
+  scanf("%c",&color);
+  if((color=='r')||(color=='R'))
+  {
+    printf("Red - Stop");
+  }
+  else if((color=='y')||(color=='Y'))
+    {
+    printf("yellow - Get ready");
+    }
+  else if((color=='g')||(color=='G'))
+  {
+    printf("green - Go");
+  }
+  else
+  {
+    printf("Enter the valid color");
+  }
+  return 0;
+}
