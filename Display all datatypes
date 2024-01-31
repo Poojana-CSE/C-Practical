@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+  int integer;
+  float decimal_number;
+  char character;
+  char sequence_of_character[100];
+  printf("Enter the number : ");
+  scanf("%d",&integer);
+  printf("\n");
+  printf("Enter the decimal number : ");
+  scanf("%f",&decimal_number);
+  printf("\n");
+  printf("Enter the character : ");
+  scanf(" %c",&character);
+  printf("\n");
+  printf("Enter The String : ");
+  scanf("%s",sequence_of_character);
+  printf("\n");
+  printf("The number is %d\n",integer);
+  printf("\n");
+  printf("The decimal number is %f\n",decimal_number);
+  printf("\n");
+  printf("The character is %c\n",character);
+  printf("\n");
+  printf("The string is %s",sequence_of_character);
+  return 0;
+}
