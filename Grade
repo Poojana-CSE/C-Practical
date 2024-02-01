@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+  char grade;
+  printf("Enter the grade : ");
+  scanf("%c",&grade);
+  if(grade=='a'||grade=='A')
+  {
+    printf("Excellent");
+  }
+  else if (grade=='b'||grade=='B')
+  {
+    printf("Good");
+  }
+  else if(grade=='c'||grade=='C')
+  {
+    printf("Satisfactory");
+  }
+  else{
+    printf("Need Improvement");
+  }
+  }
